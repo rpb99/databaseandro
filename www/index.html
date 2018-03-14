@@ -61,10 +61,10 @@
 $(document).ready(function(){
 
 
-$(document).ajaxStart(function() 
+$(document).ajaxStart(function()
 	{
 	$('#loading').show();
-	}).ajaxStop(function() 
+	}).ajaxStop(function()
 	{
 	$('#loading').hide();
 	});
@@ -75,7 +75,7 @@ $(document).ajaxStart(function()
 
 
 
-$("#iaku").load("http://127.0.0.1:8080/i_dataku.php?aksi=daftar");
+$("#iaku").load("http://192.168.43.1:8080/i_dataku.php?aksi=daftar");
 
 
 
